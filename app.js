@@ -56,6 +56,9 @@ request.write(jsonData);
 request.end();
 
 })
+app.post("/success", function(req,res){
+  res.redirect("/");
+})
 
 app.post("/failure", function(req,res){
   res.redirect("/");
