@@ -40,12 +40,12 @@ var jsonData=JSON.stringify(data);
 
 //Use the end of api key that is us5 - against usX
 //add the list id given to you by the mailchimp at the end of the url
-const url="https://us5.api.mailchimp.com/3.0/lists/de46ab3c69";
+const url=" ";
 
 //When making a http req we use post method and auth to identify the user with api.
 const options={
   method:"POST",
-  auth: "aheesh:d4c3b9e37e61332cb2a6e5eef88d4e75-us5"
+  auth: " "
 }
 
 //tap into the data sent by the mailchimp server using response.on;
